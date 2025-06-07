@@ -1,0 +1,50 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Cache files
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
